@@ -57,9 +57,9 @@ This project is licensed under the **MIT** License - see the [LICENSE](https://g
 
 
 ## Feedback
-If you come accross a bug or have any feedback, please log it in our [issue tracker](https://github.com/slovink/terraform-aws-ec2-cutoscaling/issues), or feel free to drop us an email at [concat@slovink.com](concat@slovink.com).
+If you come accross a bug or have any feedback, please log it in our [issue tracker](hhttps://github.com/slovink/terraform-aws-ec2-autoscaling/issues), or feel free to drop us an email at [concat@slovink.com](concat@slovink.com).
 
-If you have found it worth your time, go ahead and give us a ★ on [our GitHub](https://github.com/slovink/terraform-aws-clinet-ec2-cutoscaling)!
+If you have found it worth your time, go ahead and give us a ★ on [our GitHub](https://github.com/slovink/terraform-aws-ec2-autoscaling)!
 
 
 
@@ -85,7 +85,7 @@ Here is examples of how you can use this module in your inventory structure:
 ###  On_Demand
 ```hcl
   module "ec2-autoscale" {
-    version           = "1.3.0"
+    source = "https://github.com/slovink/terraform-aws-ec2-autoscaling.git?ref=v1.0.0"
     enabled     = true
     name        = "ec2"
     environment = "test"
@@ -172,6 +172,7 @@ Here is examples of how you can use this module in your inventory structure:
 ### spot
 ```hcl
     module "ec2-autoscale" {
+     source = "https://github.com/slovink/terraform-aws-ec2-autoscaling.git?ref=v1.0.0"
      enabled     = true
      name        = "ec2"
      environment = "test"
