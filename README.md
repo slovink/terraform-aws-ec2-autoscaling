@@ -57,7 +57,7 @@ This project is licensed under the **MIT** License - see the [LICENSE](https://g
 
 
 ## Feedback
-If you come accross a bug or have any feedback, please log it in our [issue tracker](hhttps://github.com/slovink/terraform-aws-ec2-autoscaling/issues), or feel free to drop us an email at [concat@slovink.com](concat@slovink.com).
+If you come accross a bug or have any feedback, please log it in our [issue tracker](https://github.com/slovink/terraform-aws-ec2-autoscaling/issues), or feel free to drop us an email at [concat@slovink.com](concat@slovink.com).
 
 If you have found it worth your time, go ahead and give us a ★ on [our GitHub](https://github.com/slovink/terraform-aws-ec2-autoscaling)!
 
